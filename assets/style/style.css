@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vw;
+}
+.img_marca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width:100%;
+}
+.imagenes{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 15px;
+    gap:20px;
+    width:100%;
+}
+.titulo{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+} 
+.cantidades{
+    display: flex;
+    flex-direction:row;
+    padding: 15px;
+    justify-content: space-around;
+    gap:20px;
+}
+.digitos{
+    display: flex;
+    flex-direction:row;
+    padding: 15px;
+    gap:20px
+}
+.validar{
+    width: 100px;
+    height: 30px;
+}
+.resultado_validar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.boton_validar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen_1{
+    width:400px;
+    border: 2px solid white; /* Ajusta el ancho y color del borde según tus preferencias */
+    margin: 1px; /* Añade un margen para crear espacio alrededor de la imagen */
+}
+.imagen_2{
+    width:400px;
+    border: 2px solid white; /* Ajusta el ancho y color del borde según tus preferencias */
+    margin: 1px; /* Añade un margen para crear espacio alrededor de la imagen */
+}
+.imagen_3{
+    width:400px;
+    border: 2px solid white; /* Ajusta el ancho y color del borde según tus preferencias */
+    margin: 1px; /* Añade un margen para crear espacio alrededor de la imagen */
+}
+
+.imagen_4{
+    width:500px;
+    border: 2px solid white; /* Ajusta el ancho y color del borde según tus preferencias */
+    margin: 1px; /* Añade un margen para crear espacio alrededor de la imagen */
+    padding-top: 30px;
+}
+
+.sticker_1{
+    border:1px lightgray;
+}
+.sticker_2{
+    border:1px lightgray;
+}
+.sticker_3{
+    border:1px lightgray;
+}
+.seleccionado {
+    border: 2px solid red; /* Ajusta el ancho y color del borde según tus preferencias */
+    margin: 1px; /* Añade un margen para crear espacio alrededor de la imagen */
+}
